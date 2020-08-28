@@ -1,0 +1,1 @@
+"use strict";$(window).scroll(function(){130<=$("html").scrollTop()?($("#nav-inner").addClass("fix"),$(".guding").css("margin-top","40px")):$("#nav-inner").removeClass("fix")});

@@ -1,0 +1,172 @@
+#denglu{
+    position: relative;
+    height: 460px;
+    width: 1349px;
+}
+.login{
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    top: 46px;
+    right: 240px;
+    background: #ffffff;
+    box-sizing: border-box;
+    padding: 32px 42px 54px 24px;
+}
+.user{
+    h2{
+        font-size: 16px;
+        color: #9b9bb5;
+        float: left;
+        margin-right: 132px;
+    }
+    a{
+        color: #fe7c31;
+    }
+}
+.user a{
+    &:hover{
+        color: crimson;
+    }
+}
+.login{
+    >p{
+        color: red;
+    }
+    form{
+        margin-top: 10px;
+    }
+    form input{
+        width: 260px;
+        height: 34px;
+        border: 1px solid #dcdcdc;
+        margin-bottom: 10px;
+    }
+    >a{
+        display: block;
+        color: #666666;
+        float: right;
+    }
+    >a:hover{
+        color: crimson;
+    }
+}
+.btn{
+    width: 260px;
+    height: 32px;
+    border-radius: 8px;
+    background: #ca483d;
+    text-align: center;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 58px;
+}
+.else{
+    margin-top: 20px;
+    height: 15px;
+    line-height: 15px;
+    h2{
+        float: left;
+    }
+    a{
+        display: block;
+        float: left;
+        text-decoration-line: none;
+        margin-left: 10px;
+        &:hover{
+            color:  #ca483d;
+        }
+        i{
+            font-size: 30px;
+        }
+    }
+
+}
+.zhuce{
+    position: absolute;
+    width: 940px;
+    height: 440px;
+    border: 2px solid #dcdcdc;
+    background: white;
+    top: 20px;
+    right: 204px;
+    display: none;
+    .left{
+        width: 550px;
+        height: 438px;
+        border-right: 1px solid #dcdcdc;
+        float: left;
+        box-sizing: border-box;
+        padding: 60px 116px 70px 128px;
+        h2{
+            font-size: 16px;
+            color: #727272;
+            margin-bottom: 10px;
+            font-weight: 900;
+        }
+        p{
+            margin-bottom: 16px;
+            span{
+                color: red;
+            }
+            &:nth-child(4){
+                margin-left: -13px;
+            }
+            input{
+                width: 220px;
+                height: 30px;
+                border: 1px solid #dddddd;
+            }
+            &:nth-child(6){
+                color: red;
+            }
+        }
+        div{
+            margin-left: 55px;
+        }
+        >button{
+            width: 220px;
+            height: 34px;
+            background: #d55e4d;
+            text-align: center;
+            margin-left: 55px;
+            margin-top: 24px;
+            font-size: 16px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+    }
+    .right{
+        width: 386px;
+        height: 438px;
+        float: right;
+        box-sizing: border-box;
+        padding-top: 15px;
+        padding-left: 50px;
+        span{
+            display: block;
+            margin-left: 316px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        h2{
+            margin-top: 14px;
+        }
+        button{
+            width: 260px;
+            height: 33px;
+            background: #d5604e;
+            text-align: center;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            margin-top: 14px;
+        }
+    }
+}
+#td h2{
+    margin-top: 0px;
+}

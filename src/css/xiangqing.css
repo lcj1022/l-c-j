@@ -1,0 +1,349 @@
+#product{
+    width: 100%;
+    background: #f4f4f4;
+    border-bottom: 2px solid #dddddd;
+}
+.product-main{
+    padding: 0;
+}
+#product .product-main .biaoti{
+    height: 66px;
+    padding-top: 26px;
+}
+#product .product-main .biaoti a{
+    text-decoration: none;
+}#product .product-main .biaoti a:hover{
+    color: red;
+}
+#product .product-main .shoes{
+    height: 472px;
+    background:  #ffffff;
+    border-bottom: 1px solid #dadce0;
+    box-sizing: border-box;
+    padding-top: 22px;
+    padding-left: 20px;
+}
+#product .product-main .shoes .shoes-r{
+    float: left;
+    width: 488px;
+    height: 452px;
+}
+.shoes .shoes-r .picture-r{
+    width: 400px;
+    height: 396px;
+    float: left;
+}
+.picture .picture-r img{
+    width: 400px;
+    height: 396px;
+    border: 1px solid #dadce0;
+}
+.picture .picture-l{
+    float: right;
+    margin-left: 14px;
+    
+}
+.picture .picture-l img{
+    display: block;
+    margin-bottom: 6px;
+    width: 74px;
+    height: 74px;
+    border: 2px solid #dadce0;
+}
+.picture-b a{
+    margin-right: 8px;
+}
+.picture-b a:hover{
+    color: red;
+}
+#product .product-main .shoes .shoes-l{
+    float: left;
+    width: 642px;
+    height: 452px;
+    margin-left: 20px;
+}
+#product .product-main .shoes .shoes-l h2{
+    font-size: 20px;
+}
+.shoes-l ul{
+    width: 642px;
+    height: 158px;
+    margin-top: 24px;
+}
+.shoes-l ul li{
+    width: 642px;
+    border-bottom: 1px dashed #d4d4d4;
+    background: #f7f7f7;
+}
+.shoes-l ul li:nth-child(1){
+   padding: 16px 0 12px 16px;
+}
+.shoes-l ul li:nth-child(2){
+    padding: 15px 0 15px 0;
+}
+.shoes-l ul li:nth-child(3){
+    padding: 15px 0 15px 15px;
+    border-bottom: none;
+    height: 42px;
+}
+.shoes-l ul li p:nth-child(1) span{
+    font-size: 22px;
+    color: #c40000;
+    font-weight: 900;
+}
+.shoes-l ul li p:nth-child(2){
+    margin-left: 66px;
+}
+.shoes-l ul li p:nth-child(2) span{
+    display: inline-block;
+    width: 40px;
+    height: 16px;
+    background: #df2d39;
+    color: #ffffff;
+    text-align: center;
+}
+.shoes-l ul li:nth-child(2) span{
+    display: inline-block;
+    width: 150px;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    border-right: 1px solid #e5dfda;
+}
+.shoes-l ul li:nth-child(2) span i{
+    color: #aa0108;
+    font-weight: 900;
+    font-size: 16px;
+}
+.shoes-l ul li:nth-child(3) p{
+    font-size: 14px;
+}
+.message-1 p{
+    float: left;
+    margin-top: 10px;
+}
+.message-1{
+    height: 32px;
+    margin-top: 20px;
+}
+.message-1 a{
+    display: block;
+    width: 40px;
+    height: 33px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    padding: 3px 6px;
+    float: left;
+    margin-right: 10px;
+}
+.message-1 img{
+    width: 26px;
+    height: 26px;
+}
+.message-2{
+    margin-top: 10px;
+    height: 48px;
+}
+.message-2 p{
+    float: left;
+    margin-top: 8px;
+}
+.message-2 a{
+    display: block;
+    width: 42px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-right: 10px;
+}
+.message-2 a:hover{
+    color: red;
+}
+.message-3{
+    height: 50px;
+}
+.message-3 p{
+    float: left;
+    margin-top: 8px;
+}
+.message-3 a{
+    display: block;
+    width: 36px;
+    height: 32px;
+    border: 1px solid #cccccc;
+    float: left;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.message-3 a:hover{
+    color: red;
+}
+.message-3 input{
+    width: 48px;
+    height: 32px;
+    float: left;
+    border: none;
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+}
+.message-4 a{
+    float: left;
+    display: block;
+    width: 175px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.message-4 a:nth-child(1){
+    background: #e54144;
+}
+.message-4 a:nth-child(2){
+    background: #000000;
+}
+.information{
+    width: 100%;
+    margin-top: 10px;
+}
+.information-r{
+    float: left;
+    width: 211px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+.information-r .top{
+    border-bottom: 1px solid #dddddd;
+}
+.information-r .top p{
+    height: 38px;
+    background: #c3121c;
+    color: #ffffff;
+    text-align: center;
+    line-height: 38px;
+    font-size: 14px;
+}
+.top-1{
+    margin-left: 24px;
+}
+.top-1 input{
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+   
+}
+.top-2{
+    margin-top: 12px;
+    margin-left: 38px;
+}
+.top-2 input{
+    width: 40px;
+    height: 30px;
+}
+.information-r .top button{
+    width: 40px;
+    height: 26px;
+    background: #c3121c;
+    text-align: center;
+    color: #ffffff;
+    margin: 12px 0 30px 70px;
+    border: none;
+}
+.pro{
+    padding-top: 20px;
+}
+.pro-list ul{
+    width: 181px;
+    text-align: center;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.pro-list li:nth-child(2n) {
+    border-left: 1px dashed #585858;
+}
+.pro-list li {
+    float: left;
+    width: 80px;
+    padding: 0 5px;
+    height: 24px;
+    line-height: 24px;
+    color: #585858;
+}
+.pro-list li a:hover{
+    color: red;
+}
+.information-l{
+    position: relative;
+    float: left;
+    width: 950px;
+    margin-left: 9px;
+}
+.information-l .toggle{
+    border: 1px solid #dddddd;
+    height: 40px;
+    border-bottom: 1px solid #dddddd;
+    background: #ffffff;
+}
+.information-l .toggle h2{
+    width: 160px;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+    border-right: 1px solid #dddddd;
+}
+.gaoliang{
+    color: red;
+}
+.product-name-1{
+    width: 100%;
+    height: 120px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-top: none;
+    box-sizing: border-box;
+    padding: 30px 0 0 18px;
+}
+.product-name-1 ul{
+    float: left;
+}
+.product-name-1 ul li{
+    margin-bottom: 16px;
+}
+.product-name-1 ul:nth-child(2){
+    margin-left: 18px;
+}
+.product-name-1 ul:nth-child(3){
+    margin-left: 120px;
+}
+.product-name-2{
+    width: 100%;
+    border: 1px solid #dddddd;
+    margin-top: 12px;
+}
+.product-name-2 img{
+    margin-left: 80px;
+    vertical-align: top;
+}
+.goTop{
+    width: 60px;
+    height: 60px;
+    background-color: #cd414a;
+    color:white;
+    line-height: 30px;
+    text-align: center;
+    position: fixed;
+    right:0px;
+    bottom:20px;
+    display: none;
+    cursor: pointer;
+    font-size:24px;
+}
